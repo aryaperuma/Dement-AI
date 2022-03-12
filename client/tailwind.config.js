@@ -10,6 +10,7 @@ module.exports = {
         white: { 400: "#F4F7E2" },
         red: { 400: "#C33E30" },
         grey: { 400: "#A0A7AF" },
+        blue: { 400: "#073798" },
       },
     },
   },
