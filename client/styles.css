@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom {
+  background: rgb(71, 166, 80);
+  background: radial-gradient(
+    circle,
+    rgba(71, 166, 80, 1) 1%,
+    rgba(32, 95, 88, 1) 22%,
+    rgba(3, 8, 8, 1) 100%
+  );
+}
+
+.bg-login-left {
+  background-color: #cdb624;
+  background-image: linear-gradient(45deg, #cdb624 0%, #47a650 100%);
+}
+
+.logo {
+  width: 50%;
+  height: 96%;
+  border-radius: 50%;
+}
