@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "./fontawesome/scss/fontawesome.scss";
-@import "./fontawesome/scss/solid.scss";
-@import "./fontawesome/scss/brands.scss";
-
 .bg-custom {
   background: rgb(71, 166, 80);
   background: radial-gradient(
