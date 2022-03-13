@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <div class="flex items-center min-h-screen p-4 bg-custom lg:justify-center">
+      <div
+        class="flex flex-col overflow-hidden bg-white-400 rounded-md shadow-lg max md:flex-row md:flex-1 lg:max-w-screen-md"
+      >
+        <div
+          class="p-4 py-6 text-white-400 bg-login-left md:w-80 md:flex-shrink-0 md:flex md:flex-col md:items-center md:justify-evenly"
+        >
+          <div class="my-3">
+            <img
+              class="logo rounded-full mx-auto"
+              src="./assets/logo.png"
+              alt="logo"
+            />
+          </div>
+          <p class="mt-6 font-normal text-center text-white-400 md:mt-0">
+            With the power of K-WD, you can now focus only on functionaries for
+            your digital products, while leaving the UI design on us!
+          </p>
+          <p
+            class="flex flex-col items-center justify-center mt-10 text-center"
+          >
+            <span>Already have an account?</span>
+            <a href="#" class="underline">Get Started!</a>
+          </p>
+          <p class="mt-6 text-sm text-center text-gray-300">
+            Read our <a href="#" class="underline">terms</a> and
+            <a href="#" class="underline">conditions</a>
+          </p>
+        </div>
+        <div class="p-5 bg-white-400 md:flex-1">
+          <h3 class="my-4 text-2xl font-semibold text-gray-900">
+           Sign up
+          </h3>
+          <form action="#" class="flex flex-col space-y-5">
+            <div class="flex flex-col space-y-1">
+              <label for="email" class="text-sm font-semibold text-gray-500"
+                >Email address</label
+              >
+              <input
+                type="email"
+                id="email"
+                autofocus
+                class="px-4 py-2 transition duration-300 border border-gray-300 rounded focus:border-transparent focus:outline-none focus:ring-4 focus:ring-blue-200"
+              />
+            </div>
+            <div class="flex flex-col space-y-1">
+              <div class="flex items-center justify-between">
+                <label
+                  for="password"
+                  class="text-sm font-semibold text-gray-500"
+                  >Password</label
+                >
+              </div>
+              <input
+                type="password"
+                id="Confirmpassword"
+                class="px-4 py-2 transition duration-300 border border-gray-300 rounded focus:border-transparent focus:outline-none focus:ring-4 focus:ring-blue-200"
+              />
+            </div>
+            <div class="flex flex-col space-y-1">
+                <div class="flex items-center justify-between">
+                  <label
+                    for="password"
+                    class="text-sm font-semibold text-gray-500"
+                    >Confirm Password</label
+                  >
+                </div>
+                <input
+                  type="password"
+                  id="Confirmpassword"
+                  class="px-4 py-2 transition duration-300 border border-gray-300 rounded focus:border-transparent focus:outline-none focus:ring-4 focus:ring-blue-200"
+                />
+              </div>
+
+            <div>
+              <button
+                type="submit"
+                class="w-full mb-3 px-4 py-2 text-lg font-semibold text-white-400 transition-colors duration-300 bg-teal-400 rounded-md shadow hover:bg-teal-800 focus:outline-none focus:ring-teal-100 focus:ring-2"
+              >
+                Create Account
+              </button>
+            </div>
+            <div class="flex flex-col space-y-5">
+              <span class="flex items-center justify-center space-x-2">
+                <span class="h-px bg-gray-400 w-14"></span>
+                <span class="font-normal text-gray-400">or signup with</span>
+                <span class="h-px bg-gray-400 w-14"></span>
+              </span>
+              <div class="flex flex-col space-y-4">
+                <a
+                  href="#"
+                  class="flex items-center justify-center px-4 py-2 space-x-2 transition-colors duration-300 border border-red-400 rounded-md group hover:bg-red-500 focus:outline-none"
+                >
+                  <span>
+                    <svg
+                      class="text-red-400 group-hover:text-white-400"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" />
+                      <path d="M17.788 5.108A9 9 0 1021 12h-8" />
+                    </svg>
+                  </span>
+                  <span
+                    class="text-sm font-medium text-red-400 group-hover:text-white-400"
+                    >Google</span
+                  >
+                </a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
