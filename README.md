@@ -1,4 +1,4 @@
-##💡Inspiration
+## 💡Inspiration
 According to WHO, currently, more than 55 million people are living with dementia worldwide and there are nearly 10 million new cases every year. It is currently the seventh leading cause of death among all diseases. Being such a chronic disease it would be great if we can detect it early and it may save someone's life. People might underestimate their symptoms of dementia early as they have to visit the clinic for a checkup and also they have to pay for it. So, to remove this inconvenience we have decided to build a platform that asks users some questions, and based on that it will predict whether the person has to visit a clinic or not. 
 
 ## ⚙ What it does
